@@ -1,5 +1,5 @@
 const suma = require('./suma');
 
-test('2 + 4 = 6', () => {
-    expect(suma(2,4)).toBe(6);
+test('1 + 1 = 2', () => {
+    expect(suma(1,1)).toBe(2);
 });
