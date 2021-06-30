@@ -1,0 +1,13 @@
+on: push
+name: ejecutar test al hacer push
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar y checkout de la rama actual
+        uses: actions/checkout@v1
+      - name: Instalar dependencias
+        run: yarn install
+      - name: Ejecutando test
+        run: yarn test
