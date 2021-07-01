@@ -16,4 +16,4 @@ jobs:
           java-version: '8'
           distribution: 'adopt'
       - name: Build with Maven
-        run: mvn -B package --file C:/Users/rbravo/Developer/MisProyectos/myProjects/javaci/myProjects/prueba/pom.xml
+        run: mvn -B package --file pom.xml
