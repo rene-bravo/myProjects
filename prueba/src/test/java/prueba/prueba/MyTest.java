@@ -1,4 +1,5 @@
-import com.microsoft.demo.Demo;
+package prueba.prueba;
+
 import org.junit.Test;
 
 public class MyTest {

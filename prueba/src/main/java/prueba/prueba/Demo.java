@@ -1,4 +1,4 @@
-package com.microsoft.demo;
+package prueba.prueba;
 
 public class Demo {
     public void DoSomething(boolean flag){
